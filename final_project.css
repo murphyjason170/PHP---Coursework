@@ -1,0 +1,49 @@
+		body {
+			font-family:	Arial, Helvetica, sans-serif;
+ 		}
+
+ 		img#lounge {
+			height:		200px;
+			width:		200px;
+			border-style:	solid;
+			border-color:	grey;
+			border-width:	2px;
+ 			position: 	absolute;
+			left:		350px;
+		}
+		
+		img#bamboo {
+			border-style:	solid;
+			border-color:	grey;
+			border-width:	2px;
+ 			position:	absolute;
+			left:		550px;
+			height:		200px;
+			width:		200px;
+		}
+		img#french {
+			height:		200px;
+			width:		200px;
+			border-style:	solid;
+			border-color:	grey;
+			border-width:	2px;
+ 			position:	absolute;
+			left:		750px;	
+		}
+		
+	td {
+		padding: 		10px;
+		text-align:		center;
+	}
+	th {
+		padding:		5px;
+	}
+	tr:nth-child(even){
+		background-color: 	lightgrey;
+	}
+	td.source{
+		font-style:		italic;
+		background-color:	white;
+		border-top:		1px dotted black;
+	}
+ 

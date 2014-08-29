@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang = "en">
+
+<head>
+	<link rel="stylesheet" href="6_objective2.css">
+</head>
+<body>
+	<h3 id="calendar">Jasons Dream Calendar</h3>
+	<h3 id="post_lotto">This is a listing of post-lotto winning activities!</h3>
+	
+	<form method="GET" action="6_objective2_version2.php">
+
+			Pick a day:
+			<select name="change_day">
+				<option value="">Please choose a day to change...</option>
+				<option value="Sunday">Sunday</option>
+				<option value="Monday">Monday</option>
+				<option value="Tuesday">Tuesday</option>
+				<option value="Wednesday">Wednesday</option>
+				<option value="Thursday">Thursday</option>
+				<option value="Friday">Friday</option>
+				<option value="Saturday">Saturday</option>
+ 			</select><br>
+ 			
+			Pick a time:
+			<select name="change_timeslot">
+				<option value="">Please choose a time to change...</option>
+				<option value="9AM">9AM</option>
+				<option value="10AM">10AM</option>
+				<option value="11AM">11AM</option>
+				<option value="12PM">12PM</option>
+				<option value="1PM">1PM</option>
+				<option value="2PM">2PM</option>
+				<option value="3PM">3PM</option>
+				<option value="4PM">4PM</option>
+ 			</select><br>
+ 				
+		 	Enter what you want the activity to be in the timeslot:
+			<input type="text" size="25" name="activity" value="" />
+			<br/>		
+			
+		<input type="submit" value="SUBMIT" />
+	</form>
+</body>
+</html>

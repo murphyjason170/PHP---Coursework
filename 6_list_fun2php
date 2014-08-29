@@ -1,0 +1,9 @@
+<?php
+# 1
+$objects = ("candle", "wax", "scary");
+list($illumination, $substance, $mood) = $objects;
+
+echo "$illumination, $substance, $mood";
+echo "<br>";
+
+?>

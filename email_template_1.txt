@@ -1,0 +1,24 @@
+#NAME#, you are invited to a birthday party at the Forbidden Island! 
+
+Party Details
+Date:		Friday, April 20, 2012 
+When:		8:00PM - 2:00AM	
+Location: 	1500 Lincoln Avenue, Alameda, CA 94501
+Phone:		(510) 865-7214
+
+Plenty of surf/rockabilly music, tiki drinks and good times!
+
+If the information is incorrect please call us at (510) 555-1212
+and let us know. Thank you!
+
+Your name:             #NAME#
+Your email address:    #EMAIL#
+Your invitation id:    #INVITATION_NUMBER#
+
+Thanks again!
+
+Mahalo,
+The Staff of Forbidden Island 
+
+ 
+ 

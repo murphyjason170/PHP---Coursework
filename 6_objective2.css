@@ -1,0 +1,53 @@
+ 		body
+		{
+			font-family:			Arial, Helvetica, sans-serif;		
+			background-color:		lightblue;
+			
+		}
+
+		li
+ 		{
+			color:		darkblue;
+			font-style:	italic;
+ 		 		
+ 		}
+		h2
+		{
+			color:		darkblue;
+		}
+ 		h3#calendar
+ 		{
+ 			color: 		darkblue;
+			border:		2px groove darkblue; 
+ 		}
+
+ 		h3#post_lotto
+ 		{
+ 			color:		darkblue;
+ 			font-style:	italic;
+ 		}
+ 		
+ 		h3#table_day
+ 		{
+ 			color:		darkblue;
+ 			font-style:	italic;
+ 		}
+
+   		h2#the_main_header
+		{
+			color:				darkblue;
+			font-weight:			bold;
+			border:				1px solid darkblue;
+			background-color:		lightgrey;
+		}		
+
+   		table
+ 		{
+ 			border:		1px solid black;
+ 			color:		darkblue;
+    		}
+ 
+ 		tr:nth-child(even){
+ 			background-color:	lightgrey;
+ 		}
+ 

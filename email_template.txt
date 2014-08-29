@@ -1,0 +1,16 @@
+You have just received a customer email. Please respond to this email by #DEADLINE#.
+Details are below:
+
+	Message Type:	#WHOAMI#
+	Message Date:	#DATE#
+		Name:	#NAME#
+	Email:		#EMAIL#
+	IP Address:	#IP#
+	Platform:	#AGENT#
+	
+<b>Subject: #SUBJECT#
+
+#MESSAGE#</b>
+
+This customer found us through #FOUND#.
+#CONTACT#

@@ -1,0 +1,165 @@
+<head>
+
+<style>
+	body
+	{
+		background-color:	lightgrey;
+		font-family:			Arial, Helvetica, sans-serif;		
+	}
+ 	h3#greeting
+	{
+		font-style:	italic;
+		color:		darkblue;
+	}
+	img#guitar
+	{
+		position:	absolute;
+		top:		150px;
+		left:		500px;
+		width:		500px;
+		height:		150px;
+	}
+</style
+
+</head>
+
+
+<body>
+<img src="Guitar_Store.jpg"></img>
+
+<h3 id="greeting">
+Please fill out this form and one of our reps will contact you asap. Let us get you started on the path to your music playing dreams!
+</h3>
+<form method="POST" action="9_objective1.php">
+<table>
+
+<td align="right">
+Title
+</td>
+<td align="left">
+<select name="formality">
+<option value="" />Please choose...
+<option value="mr" />Mr.
+<option value="ms" />Ms.
+<option value="mrs" />Mrs.
+<option value="dr" />Doctor 
+<option value="Inspector" />Inspector 
+</select>
+</td>
+</tr>
+
+<tr>
+<td align="right">
+First Name:
+</td>
+<td align="left">
+<input type="text" size="25" name="first_name" value="">
+</td>
+</tr>
+
+<tr>
+<td align="right">
+Last Name:
+</td>
+<td align="left">
+<input type="text" size="25" name="last_name" value="">
+</td>
+</tr>
+
+
+<tr>
+<td align="right">
+Phone Number
+</td><td align="left">
+<input type="text" size="25" name="phone_number" value="">
+</td>
+</tr>
+
+
+<tr>
+<td align="right">
+Email:
+</td><td align="left">
+<input type="text" size="25" name="email_address" value="">
+</td>
+</tr>
+
+
+<td align="right">
+I am interested in buying a :
+</td>
+<td align="left">
+<select name="instrument_choice">
+<option value="" />Please choose...
+<option value="electric_guitar" />Electric Guitar
+<option value="acoustic_guitar" />Acoustic Guitar
+<option value="electric bass" />Electric Bass
+<option value="drums" />Drums 
+<option value="harmonica" />Harmonica 
+</select>
+</td>
+</tr>
+
+<td align="right">
+Amp Selection:
+</td>
+<td align="left">
+<select name="amp_selection">
+<option value="" />Please choose...
+<option value="Marshall Stack" />Marshall Stack
+<option value="Fender_Combo" />Fender Combo
+<option value="Roland" />Roland
+</select>
+</td>
+</tr>
+
+ 
+<td colspan="2" align="left">
+What Guitar Brand are you interested in buying?
+<ul>
+	<input type="radio" name="guitar_type" value="Fender" />Fender<br/>
+	<input type="radio" name="guitar_type" value="Gibson" />Gibson<br/>
+	<input type="radio" name="guitar_type" value="Parker" />Parker<br/>
+	<input type="radio" name="guitar_type" value="Gretsch" />Gretsch<br/>
+	<input type="radio" name="guitar_type" value="other" />Other
+</ul>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2">
+<input type="checkbox" name="update1" checked="checked">I am also interested in music lessons!<br/>
+<input type="checkbox" name="update2" checked="checked">I am interested in the Presidents Day Guitar Sale!<br/>
+<input type="checkbox" name="update3">Please email me about in store events<br/>
+</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top">
+Special Shipping Instructions:
+</td>
+<td align="left">
+<textarea name="shipping_instructions" cols="50" rows="8">
+</textarea>
+</td>
+</td>
+</tr>
+
+<td colspan="2" align="center">
+<input type="submit" value="SUBMIT" />
+</td>
+</tr>
+
+
+
+</table>
+</form>
+
+<img src="guitar1.jpg" id="guitar" ></img>
+</body>
+
+
+
+
